@@ -2,50 +2,52 @@
 
 ## Objective
 
-To set up a web development environment on my computer and verify that all the required tools are installed correctly.
+To set up a web development environment on my computer and verify that the required tools are installed correctly.
 
 ## Requirements
 
-1. Visual Studio Code (VS Code)
-2. Node.js (LTS version)
-3. Live Server extension
-4. Prettier extension
-5. A web browser
+* Visual Studio Code (VS Code)
+* Node.js (LTS version)
+* Live Server extension
+* Prettier extension
+* A web browser
 
 ## Procedure
 
-**Step 1: Install Visual Studio Code**
+### Step 1: Install Visual Studio Code
 
-I downloaded and installed Visual Studio Code from the official website: https://code.visualstudio.com/
+Visual Studio Code can be downloaded and installed from the official website: https://code.visualstudio.com/
 
-**Step 2: Install Node.js**
+### Step 2: Install Node.js
 
-I downloaded and installed the LTS (Long-Term Support) version of Node.js from https://nodejs.org/. Node.js also installed npm (Node Package Manager).
+Download and install the LTS (Long-Term Support) version of Node.js from the official website: https://nodejs.org/
 
-**Step 3: Install VS Code Extensions**
+Node.js also includes npm (Node Package Manager).
 
-I opened Visual Studio Code and installed the following extensions:
+### Step 3: Install VS Code Extensions
+
+Open Visual Studio Code and install these extensions:
 
 * Live Server
 * Prettier - Code formatter
 
-**Step 4: Create a Project Folder**
+### Step 4: Create a Project Folder
 
-I created a folder named `web-development-practice` to store my web development files.
+Create a folder named `web-development-practice` to store the web development files.
 
-**Step 5: Create the Required Files**
+### Step 5: Create the Required Files
 
-Inside the project folder, I created the following three files:
+Inside the project folder, create these three files:
 
 * `index.html`
 * `style.css`
 * `script.js`
 
-**Step 6: Write the Code**
+### Step 6: Write the Code
 
-I added HTML code to `index.html`, CSS code to `style.css`, and JavaScript code to `script.js`.
+Add the following code to each file.
 
-### index.html
+#### index.html
 
 ```html
 <!DOCTYPE html>
@@ -66,7 +68,7 @@ I added HTML code to `index.html`, CSS code to `style.css`, and JavaScript code 
 </html>
 ```
 
-### style.css
+#### style.css
 
 ```css
 body {
@@ -95,7 +97,7 @@ button {
 }
 ```
 
-### script.js
+#### script.js
 
 ```javascript
 function showMessage() {
@@ -103,30 +105,29 @@ function showMessage() {
 }
 ```
 
-**Step 7: Run the HTML File**
+### Step 7: Run the HTML File
 
-I opened the `web-development-practice` folder in Visual Studio Code. Then, I opened `index.html`, right-clicked inside the editor, and selected **Open with Live Server**. The web page opened in my default browser.
+Open the `web-development-practice` folder in Visual Studio Code. Open `index.html`, right-click inside the editor, and select **Open with Live Server**. The web page should open in the default browser.
 
-**Step 8: Verify Node.js and npm**
+### Step 8: Verify Node.js and npm
 
-I opened the terminal in Visual Studio Code and executed the following commands:
+Open the terminal in Visual Studio Code and run these commands:
 
 ```bash
 node -v
 npm -v
 ```
 
-Both commands displayed their installed version numbers, confirming that Node.js and npm were installed successfully.
+Both commands should display version numbers if Node.js and npm are installed correctly.
 
 ## Result
 
-The web development environment was set up successfully. Visual Studio Code, Node.js, Live Server, and Prettier were installed. The required project folder and files were created, and the HTML page was tested in a browser using Live Server.
+The web development environment is ready for practising HTML, CSS, and JavaScript after the required tools and extensions have been installed. The project files can be opened using Live Server, and the Node.js and npm installations can be checked using the terminal commands.
 
 ## Submission
 
-The following screenshots will be submitted as proof of completion:
+Attach the following screenshots as proof of completion:
 
-1. Screenshot of Visual Studio Code showing the project folder and the three files.
-2. Screenshot of the terminal showing the output of `node -v` and `npm -v`.
-3. Screenshot of the HTML page running in the web browser using Live Server.
-4.
+1. **VS Code Screenshot:** Showing the project folder and the three files.
+2. **Node.js and npm Screenshot:** Showing the terminal output of `node -v` and `npm -v`.
+3. **Browser Screenshot:** Showing the HTML page running using Live Server.
